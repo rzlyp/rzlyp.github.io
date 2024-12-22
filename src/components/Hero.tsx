@@ -28,11 +28,11 @@ const TechBubble = ({ delay, color, size, x, y }: { delay: number; color: string
 
 const Hero = () => {
   const techBubbles = [
-    { color: "#8B5CF6", size: 100, x: "20%", y: "20%", delay: 0 },
-    { color: "#D946EF", size: 80, x: "80%", y: "30%", delay: 0.5 },
-    { color: "#F97316", size: 120, x: "70%", y: "70%", delay: 1 },
-    { color: "#0EA5E9", size: 90, x: "30%", y: "60%", delay: 1.5 },
-    { color: "#6E59A5", size: 70, x: "10%", y: "80%", delay: 2 },
+    { color: "#8B5CF6", size: 100, x: 200, y: 100, delay: 0 },
+    { color: "#D946EF", size: 80, x: 800, y: 150, delay: 0.5 },
+    { color: "#F97316", size: 120, x: 700, y: 350, delay: 1 },
+    { color: "#0EA5E9", size: 90, x: 300, y: 300, delay: 1.5 },
+    { color: "#6E59A5", size: 70, x: 100, y: 400, delay: 2 },
   ];
 
   return (
