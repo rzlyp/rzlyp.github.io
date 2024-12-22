@@ -1,0 +1,30 @@
+#****************************************************************************
+# robots.txt
+#     : Robots, spiders, and search engines use this file to determine which 
+#       content they should *not* crawl while indexing your website.
+#     : This system is called "The Standard Robots Exclusion."
+#****************************************************************************
+
+User-agent:  *
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /errors/
+
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+  
+User-agent: Googlebot-Mobile
+Allow: /
